@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Poll</title>
+</head>
+<body>
+    <header>
+     <h1>Please fill in a short poll</h1>
+     <nav>
+              <a href="index.html">The Top Five Detective Stories for Teenagers</a>
+    </nav>
+    <br>
+    </header>
+    <main>
+       <form action="https://formspree.io/mgeyzvvq" method="POST">
+           <label>
+                Your name:
+                <input type="text" name="Your-name" placeholder="Your name" required>
+           </label>
+           <br>
+           <label>
+                Your email:
+                <input type="email" name="Your-email" placeholder="Your email" required>
+           </label>
+           <br>
+           <label>Gender:</label>
+           <label>
+               <input type="radio" name="gender" value="boy">Boy
+           </label>
+           <label>
+               <input type="radio" name="gender" value="girl">Girl
+           </label>
+           <label>
+               <input type="radio" name="gender" value="other">Other
+           </label>
+           <br>
+           <label>
+                  Your age:
+           </label>
+           <label>
+                <input type="radio" name="age" value="8-12">8-12
+           </label>
+           <label>
+                 <input type="radio" name="age" value="13-17">13-17
+           </label>
+           <label>
+                <input type="radio" name="age" value="18-22">18-22
+           </label>
+           <br>
+           <input type="submit">
+           <input type="reset">
+       </form>
+    </main>
+    <footer>
+        <p>Thank you for your answers!</p>
+    </footer>
+</body>
+</html>
